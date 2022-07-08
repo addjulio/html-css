@@ -75,7 +75,7 @@ font-weight: bold;
       color: white;
       text-align: center;
       font-size: 3em;
-      max-width: ;
+      max-width: 600px;
       margin-bottom: 20px;
       text-decoration: none;
 
@@ -96,7 +96,7 @@ font-weight: bold;
 
     
     body{
-        
+        text-align: center;
      
 
        font-family: var(--fonte-padrao);
@@ -113,6 +113,8 @@ font-weight: bold;
     }
     
     body>h1> {
+        text-align: center;
+        
         font-family: var(--fonte-destaque);
         
        
@@ -123,6 +125,7 @@ font-weight: bold;
    
     main{
        
+        text-align: left;
     
        min-width: 300px;
        max-width: 1000px;
@@ -133,23 +136,24 @@ font-weight: bold;
         font-family: var(--fonte-padrao);
         background-color:white;
         margin-top: 0;
-          margin-right: 150px;
+                 
           
-          margin-left: 150px;
           border-bottom-left-radius: 10px;
           border-bottom-right-radius: 10px;
-        text-align: left;
+        
         box-shadow: 0px 0px 10px rgba(12, 2, 2, 0.267);
        
 
     }
     main > h2{
 
+        text-align: left;
         font-family: var(--fonte-android);
         color: green;
     }
     main p {
         
+        text-align: center;
 
         margin: 15px 0px;
         text-align: justify;   /*  Ajustar o paragráfo do  site*/
