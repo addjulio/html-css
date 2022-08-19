@@ -10,7 +10,10 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 500px;
+
+            position:relative;
+            width: 400px;
+            height: 400px;
             border-collapse: ;
 
         }
@@ -21,13 +24,25 @@
             background-color: rgb(167, 209, 195);
         }
         td,th{
+            text-align: center;/*alinhamento horizontal*/
+            vertical-align: middle;/*alinhamento vertical*/
             border: 1px solid black;
             padding: 10px;
 
+
+        }
+        .numero{
+             background-color: aqua;
+            text-align: center;
         }
         thead,tfoot{
             background-color: gray;
             color: #000;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -62,13 +77,13 @@
         <tbody>
             <tr>
         <td>sao paulo</td>
-        <td>45 919 049</td>
+        <td class="numero">45 919 049</td>
     </tr>
         <td>Minas Gerais </td>
         <td>46 019 149</td> 
         <tr>
             <td>Acre</td>
-            <td>164 122,2</td>
+            <td class="numero">164 122,2</td>
         </tr>
         <tr>
             <td>Alagoas</td>
@@ -79,6 +94,84 @@
         <tfoot>
            <th scope="row">Tamanho da população</th>
            <td>210.00000</td>
+           <tr>
+            <td>sao paulo</td>
+            <td class="numero">45 919 049</td>
+        </tr>
+            <td>Minas Gerais </td>
+            <td>46 019 149</td> 
+            <tr>
+                <td>Acre</td>
+                <td class="numero">164 122,2</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3 327 551	</td>
+            </tr>
+        
+        </tbody>
+            <tfoot>
+               <th scope="row">Tamanho da população</th>
+               <td>210.00000</td>
+               <tr>
+                <td>sao paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+                <td>Minas Gerais </td>
+                <td>46 019 149</td> 
+                <tr>
+                    <td>Acre</td>
+                    <td class="numero">164 122,2</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td>3 327 551	</td>
+                </tr>
+            
+            </tbody>
+                <tfoot>
+                   <th scope="row">Tamanho da população</th>
+                   <td>210.00000</td>
+                   <tr>
+                    <td>sao paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                    <td>Minas Gerais </td>
+                    <td>46 019 149</td> 
+                    <tr>
+                        <td>Acre</td>
+                        <td class="numero">164 122,2</td>
+                    </tr>
+                    <tr>
+                        <td>Alagoas</td>
+                        <td>3 327 551	</td>
+                    </tr>
+                
+                </tbody>
+                    <tfoot>
+                       <th scope="row">Tamanho da população</th>
+                       <td>210.00000</td>
+                       <tr>
+                        <td>sao paulo</td>
+                        <td class="numero">45 919 049</td>
+                    </tr>
+                        <td>Minas Gerais </td>
+                        <td>46 019 149</td> 
+                        <tr>
+                            <td>Acre</td>
+                            <td class="numero">164 122,2</td>
+                        </tr>
+                        <tr>
+                            <td>Alagoas</td>
+                            <td>3 327 551	</td>
+                        </tr>
+                    
+                    </tbody>
+                        <tfoot>
+                           <th scope="row">Tamanho da população</th>
+                           <td>210.00000</td>
+
+           
         </tfoot>
     </table>
 </body>
